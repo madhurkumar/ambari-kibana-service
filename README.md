@@ -1,6 +1,8 @@
 # Ambari Kibana Service
 
-The Ambari Kibana Service is a custom service for Ambari that allows you to install and manage Kibana via Ambari along with x-pack.  This service is provided as a community project and is not supported by Hortonworks.  Futhermore, this service is intended for testing and development and should not be used in a production environment.  This service is for Ambari 2.4.x and Kibana/Elasticsearch 5.2.2
+The Ambari Kibana Service is a custom service for Ambari that allows you to install and manage Kibana via Ambari along with x-pack.  This service is provided as a community project and is not supported by Hortonworks.  Futhermore, this service is intended for testing and development and should not be used in a production environment.  This service is for Ambari 2.4.x and Kibana/Elasticsearch 5.2.2.
+
+## Please note x-pack is licensed component and this service is not responsible for managing license.
 
 ## Installation
 

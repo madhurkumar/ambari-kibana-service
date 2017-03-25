@@ -1,6 +1,6 @@
 # Ambari Kibana Service
 
-The Ambari Kibana Service is a custom service for Ambari that allows you to install and manage Kibana via Ambari.  This service is provided as a community project and is not supported by Hortonworks.  Futhermore, this service is intended for testing and development and should not be used in a production environment.  This service is for Ambari 2.4.x and Kibana/Elasticsearch 5.2.2
+The Ambari Kibana Service is a custom service for Ambari that allows you to install and manage Kibana via Ambari along with x-pack.  This service is provided as a community project and is not supported by Hortonworks.  Futhermore, this service is intended for testing and development and should not be used in a production environment.  This service is for Ambari 2.4.x and Kibana/Elasticsearch 5.2.2
 
 ## Installation
 
@@ -25,7 +25,7 @@ Once the Ambari Server service has been restarted, you should see Kibana as an a
 
 This service has been tested with the following:
 
-- RHEL &.x
+- RHEL 7.x
 - Ambari 2.4.2.0
 - Kibana 5.2.2
 - Elasticsearch 5.2.2
@@ -34,7 +34,6 @@ This service has been tested with the following:
 
 The following limitations currently apply:
 
-- Use
 - The service does not currently have Ambari Service Advisor or Ambari Alert functionality.
 
 ## License

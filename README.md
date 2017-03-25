@@ -8,7 +8,7 @@ To install this service, you need access to the Ambari Server with sudo permissi
 
 ```
 VERSION=`hdp-select status hadoop-client | sed 's/hadoop-client - \([0-9]\.[0-9]\).*/\1/'`
-sudo git clone https://github.com/mkumar/ambari-kibana-service /var/lib/ambari-server/resources/stacks/HDP/$VERSION/services/KIBANA
+sudo git clone https://github.com/madhurkumar/ambari-kibana-service /var/lib/ambari-server/resources/stacks/HDP/$VERSION/services/KIBANA
 ```
 
 If you do not have the ability to use git, you can download the repo archive and extract it to directory shown above.

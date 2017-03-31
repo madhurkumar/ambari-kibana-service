@@ -40,5 +40,5 @@ kibana_pid_dir = config['configurations']['kibana-env']['kibana_pid_dir']
 kibana_pid_file = format("{kibana_pid_dir}/kibana.pid")
 xpack_security_ssl_certs_template = config['configurations']['kibana-config']['xpack_security_ssl_certs_template']
 kibana_install_tmp_dir = kibana_base_dir + '/tmp'
-copy_es_certs = config['configurations']['kibana-config']['copy_es_certs'].lower()
+copy_es_certs = str(config['configurations']['kibana-config']['copy_es_certs']).lower()
 es_certs_file = config['configurations']['kibana-config']['es_certs_file']
